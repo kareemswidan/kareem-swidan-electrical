@@ -2,6 +2,10 @@
 
 A responsive electrical products website for Kareem Swidan, serving customers across Palestine.
 
+[![CI](https://github.com/kareemswidan/kareem-swidan-electrical/actions/workflows/ci.yml/badge.svg)](https://github.com/kareemswidan/kareem-swidan-electrical/actions/workflows/ci.yml)
+
+Engineering documentation: [architecture and delivery decisions](docs/ARCHITECTURE.md).
+
 ![Desktop homepage preview](screenshots/desktop-home.png)
 
 ## Highlights

@@ -250,7 +250,7 @@ function initProductDetails() {
   const quote = document.querySelector("[data-quote-link]");
   const whatsapp = document.querySelector("[data-whatsapp-link]");
   if (quote) quote.href = `contactUs.html?subject=quote&product=${encodeURIComponent(sku)}`;
-  if (whatsapp) whatsapp.href = `https://wa.me/962795600703?text=${encodeURIComponent(`Hello, I need information about ${sku}.`)}`;
+  if (whatsapp) whatsapp.href = `https://wa.me/972598934925?text=${encodeURIComponent(`Hello, I need information about ${sku}.`)}`;
   document.title = `${sku} | Kareem Swidan`;
 }
 
