@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("./typography.css");
+
 :root {
   --ink:#0b1220;--ink-2:#172033;--surface:#fff;--soft:#f5f7fb;--text:#1d2939;
   --muted:#667085;--line:#e4e7ec;--brand:#f36b21;--brand-dark:#d95313;
@@ -91,3 +94,4 @@ h1{font-size:clamp(2.35rem,5vw,4.6rem)} h2{font-size:clamp(1.85rem,3vw,2.75rem)}
 @media(max-width:640px){.container{width:min(100% - 28px,var(--max))}.topbar-inner{justify-content:center}.topbar-links{gap:14px}.topbar-links a:last-child{display:none}.brand-copy{display:none}.hero,.hero-content{min-height:650px}.hero-content{padding-block:76px 120px}.hero-slide::before{background:linear-gradient(90deg,rgba(6,12,24,.95),rgba(6,12,24,.67)),linear-gradient(0deg,rgba(6,12,24,.7),transparent 60%)}.hero-controls{right:14px;bottom:28px}.trust-grid,.stats-grid,.product-grid,.values-grid,.news-grid,.brand-strip,.resource-grid,.detail-highlights,.form-row{grid-template-columns:1fr}.trust-item,.trust-item:first-child,.trust-item:nth-child(3){border:1px solid var(--line);border-bottom:0}.trust-item:last-child{border-bottom:1px solid var(--line)}.section-heading,.filter-summary,.cta-panel,.footer-bottom{align-items:flex-start;flex-direction:column}.visual-card::before{right:-8px;bottom:-8px}.floating-note{bottom:14px;left:14px}.main-product-image{min-height:330px}.cta-actions,.cta-actions .btn{width:100%}.footer-main{grid-template-columns:1fr;gap:34px}.footer-legal{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}[data-reveal]{opacity:1;transform:none}}
 @media(max-width:640px){.brand-logo{gap:8px}.brand-mark{width:46px;height:46px;border-radius:13px}.brand-copy{display:grid;font-size:.5rem;letter-spacing:.08em}.brand-copy strong{font-size:.78rem;letter-spacing:.025em}}
+
