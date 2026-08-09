@@ -1,0 +1,16 @@
+/* Typography tokens mirrored from Kareem Swidan's portfolio. */
+:root{--font-latin:Manrope,Arial,sans-serif;--font-arabic:"IBM Plex Sans Arabic",Arial,sans-serif;--type-hero:clamp(42px,5.6vw,70px);--type-section:clamp(34px,4.6vw,54px);--type-card-title:23px;--type-lead:16px;--type-copy:13px;--type-nav:12px;--type-control:11px;--type-small:10px}
+body{font-family:var(--font-latin)!important;font-size:16px!important;line-height:1.65!important}
+html[dir="rtl"] body{font-family:var(--font-arabic)!important}
+html[dir="rtl"] :is(h1,h2,h3,p,a,button,label,input,textarea,select,small,span){letter-spacing:0!important}
+:is(button,input,textarea,select){font-family:inherit!important}
+.nav-link,.dropdown-toggle{font-size:var(--type-nav)!important}
+.eyebrow,.product-kicker,.product-code{font-family:inherit!important;font-size:14px!important;line-height:1.5!important}
+h1,.hero-copy .hero-title,.page-hero h1,.details-copy h1{font-family:inherit!important;font-size:var(--type-hero)!important;line-height:1.02!important;letter-spacing:-.055em!important}
+h2,.section-heading h2{font-family:inherit!important;font-size:var(--type-section)!important;line-height:1.12!important;letter-spacing:-.04em!important}
+.hero-copy p,.page-hero p,.details-lead{font-size:var(--type-lead)!important;line-height:1.8!important}
+.product-card h3,.value-card h3,.news-card h3,.feature-item h3{font-size:var(--type-card-title)!important;line-height:1.35!important}
+.product-card p,.value-card p,.news-card p,.feature-item p{font-size:var(--type-copy)!important;line-height:1.75!important}
+.btn,.tab-button,.filter-chip{font-size:var(--type-control)!important}
+@media(max-width:640px){h1,.hero-copy .hero-title,.page-hero h1,.details-copy h1{font-size:38px!important}.hero-copy p,.page-hero p,.details-lead{font-size:14px!important}h2,.section-heading h2{font-size:35px!important}}
+
